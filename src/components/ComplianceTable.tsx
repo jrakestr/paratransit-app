@@ -7,7 +7,7 @@ interface ComplianceItem {
   items: {
     name: string;
     identifier: string;
-    status: 'Valid' | 'Expiring' | 'Expired' | 'Pending';
+    status: 'Valid' | 'Expiring' | 'Expired' | 'Pending..';
     expiration: string;
     daysRemaining: number;
   }[];
